@@ -1,0 +1,23 @@
+{
+  "name": "nanoexpress-apitodo",
+  "version": "1.0.0",
+  "description": "devcode challenge api-todo",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nanoexpress/middleware-body-parser": "^1.2.2",
+    "dotenv": "^16.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nanoexpress": "^5.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
